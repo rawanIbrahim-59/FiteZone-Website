@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #eab308;
+  --color-primary-dark: #ca8a04;
+  --color-dark: #111111;
+  --color-dark-200: #1a1a1a;
+  --color-dark-300: #222222;
+  --color-gray-850: #2d2d2d;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-dark text-white;
+  }
+}
+
+@layer utilities {
+  .clip-diagonal {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
+}
