@@ -67,7 +67,8 @@ export default function Classes() {
             <div
               key={cls.name}
               className="group relative overflow-hidden rounded-xl bg-dark-300 border border-white/5 hover:border-primary/30 transition-all duration-300"
-            >
+            >  
+            
               <div className={`h-2 bg-gradient-to-r ${cls.color}`} />
               <div className="p-6">
                 <div className="flex items-start justify-between mb-4">
